@@ -33,7 +33,7 @@ public class Point2D {
 	}
 
 	public String getDetails() {
-		String res = "Point (" + x + "," + y + ")";
+		String res = "Point (" + x + "," + y + ")"; 
 		return res;
 	}
 

@@ -71,7 +71,7 @@ public class TestPointArray1 {
 					}
 				} else {
 					System.out.println("Enter Valid Indexes");
-				}
+				} 
 				break;
 
 			case 4:
