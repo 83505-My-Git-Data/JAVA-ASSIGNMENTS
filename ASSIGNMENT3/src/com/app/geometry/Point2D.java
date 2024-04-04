@@ -4,11 +4,10 @@ import java.lang.Math;
 
 public class Point2D {
 	private double x;
-	private double  y;
-	
-	public Point2D()
-	{
-		
+	private double y;
+
+	public Point2D() {
+
 	}
 
 	public Point2D(double x, double y) {
@@ -16,8 +15,6 @@ public class Point2D {
 		this.y = y;
 
 	}
-	
-	
 
 	public double getX() {
 		return x;
