@@ -1,5 +1,6 @@
 package stringPrograms;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class StringCount {
@@ -9,15 +10,22 @@ public class StringCount {
 
 		System.out.print("Enter the Sring: ");
 		String s = sc.nextLine();
-		
-		s.trim();
-		
-		
-		String []ArrofStrings = s.split(" ");
-		
-		System.out.print("Lenght of the Array: "+ArrofStrings.length);
-		
 
+		String sTrimmed = s.trim();
+
+		String[] ArrofStrings = sTrimmed.split(" ");
+
+		int count = 0;
+
+		for (int i = 0; i < ArrofStrings.length; i++) {
+			if (ArrofStrings[i].length() > 0) {
+				count++;
+			}
+		}
+
+		// System.out.print("Lenght of the Array: "+ArrofStrings.length);
+
+		System.out.print("Lenght of the Array: " + count);
 
 	}
 
